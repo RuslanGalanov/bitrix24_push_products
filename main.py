@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
         sheet_out.write(i, 0, data[i].refference)
         sheet_out.write(i, 1, ' / '.join(poses))
-        sheet_out.write(i, 2, data[i].ru_name)
+        sheet_out.write(i, 2, data[i].refference + ' ' + data[i].ru_name)
         sheet_out.write(i, 3, data[i].en_name)
         sheet_out.write(i, 4, data[i].price)
         sheet_out.write(i, 5, ' / '.join(data[i].group))
